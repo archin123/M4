@@ -1,0 +1,1 @@
+Synthetic CSV files are generated here by `generate_sensor_data.py`. The `_SYNTHETIC` filename and `source` column deliberately identify them as simulated. Replace/add real MPU6050 runs for assessment proof; preserve the original raw logs.
