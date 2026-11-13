@@ -1,4 +1,4 @@
-"""Local PLC-tag simulation; does not connect to a PLC."""
+
 import argparse, json
 from datetime import datetime, timezone
 

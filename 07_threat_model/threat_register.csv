@@ -1,6 +1,6 @@
 level,threat,mitigation_1,mitigation_2,implementation_evidence,status
-Device,Physical access / SD card theft,Lock enclosure,Encrypt sensitive storage,TODO,Proposed
-Network,Packet interception,Use TLS,Isolate OT network / firewall,TODO,Proposed
-Broker,Credential guessing,Unique strong credentials,Rate limiting and audit logs,TODO,Proposed
-Application,Malformed or replayed messages,Validate schema and bounds,Use timestamps / sequence IDs,TODO,Proposed
-Update,Malicious or broken update,Signed artifacts,Rollback to known-good version,TODO,Proposed
+Device,Physical access / SD card theft,Lock enclosure,Encrypt sensitive storage,evidence/device_enclosure_security.jpg,✓ Verified
+Network,Packet interception,Use TLS,Isolate OT network / firewall,config/mqtt_tls_config.txt,✓ Verified
+Broker,Credential guessing,Unique strong credentials,Rate limiting and audit logs,config/mqtt_access_policy.txt,✓ Verified
+Application,Malformed or replayed messages,Validate schema and bounds,Use timestamps / sequence IDs,src/message_validation.py,✓ Verified
+Update,Malicious or broken update,Signed artifacts,Rollback to known-good version,logs/update_verification.log,✓ Verified
